@@ -24,6 +24,7 @@ public class ChronomancerEngine {
 
         vaultLoot.accept(goldAppraiser);
         vaultLoot.accept(weightCalc);
+        vaultLoot.accept(new LoreReader());
 
         System.out.println("Magic scanning:");
         vaultLoot.accept(magicScanner);
