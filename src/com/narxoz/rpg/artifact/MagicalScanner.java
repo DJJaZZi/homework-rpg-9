@@ -4,7 +4,7 @@ public class MagicalScanner implements ArtifactVisitor {
 
     @Override
     public void visit(Weapon weapon) {
-        System.out.println("⚔ [Weapon] " + weapon.getName() + " (Attack bonus: +" + weapon.getAttackBonus() + ")");
+        System.out.println(" [Weapon] " + weapon.getName() + " (Attack bonus: +" + weapon.getAttackBonus() + ")");
     }
 
     @Override
